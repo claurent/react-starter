@@ -6,6 +6,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
 
 import Header from './components/header/Header.js';
+import Footer from './components/footer/Footer.js';
 import Home from './components/home/Home.js';
 import About from './components/about/About.js';
 // import NotFound from './components/notfound/NotFound.js';
@@ -23,12 +24,13 @@ class App extends Component {
         </p>*/}
         <Header />
         <Router>
-          <div>
+          <div className="App-container container">
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
             {/*<Route path='*' component={NotFound} />*/}
           </div>
         </Router>
+        <Footer />
       </div>
     );
   }
