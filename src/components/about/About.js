@@ -11,7 +11,7 @@ class About extends Component {
         <hr />
         <div className="row">
           <div className="col-md-4">
-            <img className="about-image" src="assets/charles.png"></img>
+            <img className="about-image" src="assets/charles.png" alt="Charles Laurent"></img>
           </div>
           <div className="col-md-8">
             <div className="about-description">

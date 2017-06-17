@@ -1,5 +1,5 @@
 .footer {
-    /*position: relative;*/
+    position: fixed;
     margin-top: 10px;
 }
 .footer-text {
