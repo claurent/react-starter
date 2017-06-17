@@ -13,15 +13,18 @@ class Header extends Component {
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
-      {/*<li className="nav-item">
+      <li className="nav-item">
         <a className="nav-link" href="#/about">About</a>
       </li>
       <li className="nav-item">
         <a className="nav-link" href="#/experience">Experience</a>
       </li>
       <li className="nav-item">
+        <a className="nav-link" href="#/education">Education</a>
+      </li>
+      <li className="nav-item">
         <a className="nav-link" href="#/contact">Contact</a>
-      </li>*/}
+      </li>
     </ul>
   </div>
 </nav>

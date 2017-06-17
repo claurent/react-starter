@@ -1,0 +1,13 @@
+.about-description {
+    text-align: left;
+}
+
+.about-description p:nth-child(1) {
+    font-weight: 900;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
